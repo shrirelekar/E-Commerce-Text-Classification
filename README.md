@@ -1,9 +1,20 @@
 E-Commerce Text Classification<br>
 
-This project focuses on building a classification model for e-commerce product data to automatically label products under categories like Electronics, Household, Books, and Clothing & Accessories. Using a dataset of 50,424 instances, the project preprocesses and classifies text data for better search optimization and product categorization.<br><br>
+This project focuses on classifying e-commerce product descriptions into categories by implementing robust text preprocessing and machine learning techniques.<br>
 
-Project Structure<br>
-Data Preprocessing: Steps include handling missing values, removing stopwords, lemmatizing text, and expanding contractions.<br>
-Model Training: Utilized several models for text classification, with comparisons on accuracy and relevance.<br>
-Results: Achieved promising results in classifying product categories accurately.<br>
-This project is an excellent starting point for anyone interested in text classification within e-commerce!<br>
+Steps Performed:<br>
+Data Loading: Loaded a dataset containing thousands of e-commerce product descriptions.<br>
+Text Preprocessing:<br>
+Removed HTML tags, numbers, special characters, and punctuation.<br>
+Tokenized and lemmatized text.<br>
+Converted all text to lowercase for uniformity.<br>
+Reconstructed cleaned text into a string format.<br>
+Text to Numeric Conversion:<br>
+Used CountVectorizer and TfidfVectorizer to transform text data into numerical features.<br>
+Model Building:<br>
+Trained a Random Forest Classifier.<br>
+Achieved a 97% cross-validation accuracy using both vectorization techniques.<br>
+Results:<br>
+This project demonstrates how efficient text preprocessing and robust model building can lead to high-performing classifiers in the e-commerce domain.<br>
+
+Explore the full project for detailed insights and implementation!<br>
