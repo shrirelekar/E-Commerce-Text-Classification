@@ -1,4 +1,5 @@
-E-Commerce Text Classification<br>
+E-Commerce Text Classification<br><br>
+
 This project focuses on building a classification model for e-commerce product data to automatically label products under categories like Electronics, Household, Books, and Clothing & Accessories. Using a dataset of 50,424 instances, the project preprocesses and classifies text data for better search optimization and product categorization.<br><br>
 
 Project Structure<br>
